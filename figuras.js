@@ -1,24 +1,33 @@
+
+
 //Codigo del cuadrado
 
-//const ladoCuadrado = 2;
-let area;
-let perimetro;
-
-const perimetroCuadrado = (lado) => {
+const perimetroCuadrado1 = (lado) => {
     return lado * 4;
 }
 
-perimetro = perimetroCuadrado(3);
 
-const areaCuadrado = (lado) => {
+const areaCuadrado2 = (lado) => {
     return lado * lado;
 }
 
+//Conecto javascript con html
 
-area = areaCuadrado(3);
+function perimetroCuadrado () {
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+    const perimetro = perimetroCuadrado1(value);
 
-//console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
+    alert(perimetro);
 
-console.log(`El perimetro del cuadrado es: ${perimetro} cm`);
+}
 
-console.log(`El area del cuadrado es: ${area} cm^2`);
+
+ 
+function areaCuadrado () {
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+    const area = areaCuadrado2(value);
+    
+    alert(area);
+}

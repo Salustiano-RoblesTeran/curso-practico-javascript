@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    padding: 15px;
+    font-size: 14px;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+.btn-group {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+button {
+    background-color: #fff;
+    width: 120px;
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 8px;
+
+}
